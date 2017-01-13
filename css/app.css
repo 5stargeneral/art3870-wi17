@@ -6,15 +6,15 @@
 
 h1, h6{font-family: cursive;}
 header{}
-header h1 {color: red; background-color: yellow;}
+header h1 {color: red; background-color: black;}
 nav{
 }
 
 footer{}
 
+body{background-color: silver;}
 
 
-* {outline: 1px solid red;}
 
 /* header styles*/
 
