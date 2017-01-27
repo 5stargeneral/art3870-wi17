@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redesi</title>
+<link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/app.css">
+<link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+</head>
+<body>
+
+
+  <div class="wrapper">
+  <header class="row">
+
+
+
+<h1 class="columns small-12 medium-12 large-12">  <img src="logo.jpg" alt=""></h1>
+
+<div class="column large-3 medium-3 small-12 nav">
+  <a href="index.html" > Home</a>
+</div>
+<div class="column large-3  medium-3 small-12 nav ">
+  <a href="pro.html" > Order</a>
+
+</div>
+  <div class="column large-3  medium-3 small-12 nav ">
+      <a href="about.html" > History</a>
+</div>
+
+<div class="column large-3  medium-3 small-12 nav ">
+    <p> Contact</p>
+</div>
+<h2 class="columns small-12 medium-12 large-12">
+
+</h2>
+
+
+
+  </header>
+
+<div class="row">
+<div class="columns small-12 medium-6 large-6 main ">
+  <p class="head"> Contact Information
+
+   <p> Address:</p>16250 E 14th Street San Leandro, CA 94578 </p>
+   <p> 510-276-3999</p>
+ </div>
+
+
+<div class="columns small-12 medium-6 large-6 main ">
+  <div data-interchange="[partial-sm-index.html, small],  [partial-lg-index.html, large]">
+    <div data-alert class="alert-box secondary radius">
+      <div class="flex-video">
+      <img src="angryfishsushi-map.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+</div>
+
+  <footer class="row">
+<div class="columns small-12 medium-12 large-12 footer ">
+    <br><br>
+    <br><br><br><br><br><br><br><br><h1 id="greeting"></h1>
+    </div>
+  </footer>
+  </div>
+
+
+  <script language="JavaScript">
+      var myDate = new Date();
+      /* hour is before noon */
+      if ( myDate.getHours() < 12 )
+      {
+          document.getElementById('greeting').innerHTML = "Good Morning!";
+      }
+      else  /* Hour is from noon to 5pm (actually to 5:59 pm) */
+      if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 )
+      {
+          document.getElementById('greeting').innerHTML = "Good Afternoon!";
+      }
+      else  /* the hour is after 5pm, so it is between 6pm and midnight */
+      if ( myDate.getHours() > 17 && myDate.getHours() <= 24 )
+      {
+         document.getElementById('greeting').innerHTML = "Good Evening!";
+      }
+      else  /* the hour is not between 0 and 24, so something is wrong */
+      {
+          document.getElementById('greeting').innerHTML = "I'm not sure what time it is!";
+      }
+      /* remove the following in your live script. It is for testing */
+      document.write("<br /><br /> The hour is: ")
+      document.write( myDate.getHours() );
+      </script>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

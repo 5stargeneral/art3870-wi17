@@ -1,0 +1,31 @@
+/*this is  my stylesheet for the homepage */
+
+.nav{
+
+background-color: #a52215;
+  text-align:center;
+border: solid #01aef0;
+font-family: 'Shojumaru', cursive;}
+h1{
+  text-align: center;;
+}
+
+a{
+  color: white;
+}
+.main{
+  background-color: #c6c3b4;
+}
+body{
+  background-color:  black;
+}
+
+.footer{
+  background-color: white;
+}
+p{
+font-family: 'Bungee Inline', cursive;
+}
+ .head{
+  color: yellow; font-size:25px;
+}
